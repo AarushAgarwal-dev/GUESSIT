@@ -28,10 +28,10 @@ def generateNum():
   
   
 # Returns common digits with exact  
-# matches (bulls) and the common  
-# digits in wrong position (cows) 
-def numOfBullsCows(num,guess): 
-    bull_cow = [0,0] 
+# matches (cdcp) and the common  
+# digits in wrong position (cdwp) 
+def numOfcdcpcdwp(num,guess): 
+    cdcp_cdwp = [0,0] 
     num_li = getDigits(num) 
     guess_li = getDigits(guess) 
       
@@ -42,13 +42,13 @@ def numOfBullsCows(num,guess):
           
             # common digit exact match 
             if j == i: 
-                bull_cow[0] += 1
+                cdcp_cdwp[0] += 1
               
             # common digit match but in wrong position 
             else: 
-                bull_cow[1] += 1
+                cdcp_cdwp[1] += 1
                   
-    return bull_cow 
+    return cdcp_cdwp 
       
       
 # Secret Code 
@@ -67,11 +67,11 @@ while tries > 0:
         print("Enter 4 digit number only. Try again.") 
         continue
       
-    bull_cow = numOfBullsCows(num,guess) 
-    print(f"{bull_cow[0]} bulls, {bull_cow[1]} cows") 
+    cdcp_cdwp = numOfcdcpcdwp(num,guess) 
+    print(f"{cdcp_cdwp[0]}  correct digits in the correct position, {cdcp_cdwp[1]} correct digits in the wrong position.") 
     tries -=1
       
-    if bull_cow[0] == 4: 
+    if cdcp_cdwp[0] == 4: 
         print("You guessed right!") 
         break
 else: 
