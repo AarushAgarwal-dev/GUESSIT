@@ -1,4 +1,4 @@
-This Python code implements a simple console-based game that allows the user to choose between two games: guessing a movie title or guessing a 4-digit number. Let's break down the code:
+This Python code implements a simple console-based game that allows the user to choose between two games: guessing a movie title or guessing a 4-digit number. 
 
 Movie Guessing Game
 Settings Class:
@@ -48,6 +48,7 @@ Movie Guessing Game:
 
 A new game session is created.
 The game continues until the player either wins or runs out of allowed wrong guesses.
+
 Number Guessing Game:
 
 A secret 4-digit number is generated.
