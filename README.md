@@ -8,7 +8,7 @@ This school project is a game that allows users to engage in two different guess
 
 # Starting the Game:
 
-Run the Python script (pyguess.py) to start the game.
+Run the Python script (guessit.py) to start the game.
 
 ## Game Details
 
