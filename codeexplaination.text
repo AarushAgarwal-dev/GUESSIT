@@ -1,0 +1,57 @@
+This Python code implements a simple console-based game that allows the user to choose between two games: guessing a movie title or guessing a 4-digit number. Let's break down the code:
+
+Movie Guessing Game
+Settings Class:
+
+wrong_guesses_allowed: Sets the maximum number of wrong guesses allowed (6 in this case).
+WordList Class:
+
+all_movies: Contains a list of movie titles.
+get_random_word(): Returns a randomly chosen movie title from the list.
+Session Class:
+
+__init__: Initializes a new game session.
+to_index: Converts a letter to an index for tracking guessed letters.
+get_word: Returns the movie title for the current session.
+get_remaining_wrong_guesses: Returns the remaining wrong guesses allowed.
+remove_guess: Decrements the count of remaining wrong guesses.
+is_letter_guessed: Checks if a letter has been guessed.
+set_letter_guessed: Marks a letter as guessed.
+is_letter_in_word: Checks if a letter is in the movie title.
+won: Checks if the player has guessed all the letters in the word.
+draw Function:
+
+Displays the current state of the guessed word and wrong guesses.
+get_guess Function:
+
+Takes user input for the next letter, validates it, and returns the lowercase letter.
+handle_guess Function:
+
+Handles the logic after a user's guess, updating the session accordingly.
+Number Guessing Game
+get_digits Function:
+
+Converts a number to a list of its digits.
+no_duplicates Function:
+
+Checks if a number has no repeated digits.
+generate_num Function:
+
+Generates a 4-digit number with no repeated digits.
+num_of_cdcp_cdwp Function:
+
+Determines the number of correct digits in the correct position and correct digits in the wrong position between the secret number and the guessed number.
+Main Game
+The user is prompted to choose between guessing a movie (1) or guessing a number (2).
+
+Movie Guessing Game:
+
+A new game session is created.
+The game continues until the player either wins or runs out of allowed wrong guesses.
+Number Guessing Game:
+
+A secret 4-digit number is generated.
+The player has a limited number of tries to guess the number, with feedback provided after each guess.
+If the user makes an invalid choice, an error message is displayed.
+
+Note: The code uses classes and functions to organize the logic and make it modular. The game loop and user interactions are handled in the main part of the code.
