@@ -46,14 +46,13 @@ You lose if you run out of allowed wrong guesses.
 
 If you want to play again, rerun the Python script to start a new game.
 
-
 ### Guess the Number
 
 In this game, the player needs to guess a randomly generated 4-digit number with no repeated digits. The player has a limited number of tries.
 
 - The game checks for duplicated digits in the player's guess and ensures the guess is a 4-digit number.
 
-#### How to Play
+# How to Play
 
 1. Run the game:
 
