@@ -12,14 +12,14 @@ Run the Python script (pyguess.py) to start the game.
 
 ## Game Details
 
-### Guess the Movie
+# Guess the Movie
 
 In this game, the computer selects a random movie title, and the player must guess the letters in the title. The player has a limited number of wrong guesses allowed.
 
 - The game supports both uppercase and lowercase letter guesses.
 - The number of incorrect guesses allowed is configurable in the `Settings` class.
 
-# Objective:
+#### Objective:
 
 Guess the hidden movie title by suggesting letters.
 
@@ -31,7 +31,7 @@ Guess the hidden movie title by suggesting letters.
 
 3. Follow the on-screen instructions to make guesses and try to win the game!
 
-# Gameplay:
+#### Gameplay:
 
 You have a limited number of wrong guesses allowed.
 Enter a letter when prompted to guess the movie title.
@@ -42,17 +42,17 @@ Winning and Losing:
 You win by correctly guessing the entire movie title.
 You lose if you run out of allowed wrong guesses.
 
-# Restarting the Game:
+#### Restarting the Game:
 
 If you want to play again, rerun the Python script to start a new game.
 
-### Guess the Number
+# Guess the Number
 
 In this game, the player needs to guess a randomly generated 4-digit number with no repeated digits. The player has a limited number of tries.
 
 - The game checks for duplicated digits in the player's guess and ensures the guess is a 4-digit number.
 
-# How to Play
+#### How to Play
 
 1. Run the game:
 
@@ -62,5 +62,5 @@ In this game, the player needs to guess a randomly generated 4-digit number with
 
 4. Follow the on-screen instructions to make guesses and try to win the game!
 
-#### Authors
+# Authors
 Aarush Agarwal,Shreya Bhatnagar,Nandita dhawan 
