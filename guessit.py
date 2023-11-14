@@ -6,12 +6,22 @@ class Settings:
 
 class WordList:
     all_movies = [
-        "Sholay", "Dilwale Dulhania Le Jayenge", "Mughal-e-Azam", "3 Idiots", "Lagaan", "Dangal",
-        "Gully Boy", "Kabhi Khushi Kabhie Gham", "PK", "Andaz Apna Apna", "Swades", "Chak De! India",
-        "Koi Mil Gaya", "Queen", "Drishyam", "Baahubali: The Beginning", "Haider", "Jab Tak Hai Jaan",
-        "Devdas", "Rang De Basanti", "The Godfather", "Shawshank Redemption", "Pulp Fiction",
-        "The Dark Knight", "Forrest Gump", "Inception", "Titanic", "The Matrix", "Avatar",
-        "Jurassic Park"
+        "Sholay", "Lagaan", "Dangal",
+        "GullyBoy",  "PK", "Andaz Apna Apna", "Swades", 
+        "Koi Mil Gaya", "Queen", "Drishyam", "Baahubali", "Haider","krish"
+          
+    "Dilwale", "Dhoom", "Piku", "Raees", "Memento", "Inception", "Titanic",
+    "Avatar", "Interstellar", "Gravity", "Jaws", "Gladiator", "Casablanca",
+    "Braveheart", "Rocky", "Joker", "Matrix", "Logan", "Incredibles",
+    "Up", "Frozen", "Coco", "Gravity", "La La Land", "Cinderella",
+    "BladeRunner", "Gandhi", "Chicago", "Casino", "Fargo", "ChakDeIndia",
+    "Gandhi", "MunnaBhaiMBBS", "Dabangg", "Sarkar", "RangDeBasanti",
+    "JabariyaJodi", "October", "Barfi", "Fukrey", "JollyLLB", "Stree",
+    "Masaan", "GangsOfWasseypur", "Raazi", "Andhadhun", "BadhaaiHo",
+    "HeraPheri", "Golmaal", "Padosan", "MotherIndia", "MughalEAzam",
+    "Padosan", "AmarAkbarAnthony", "MeraNaamJoker", "Bombay", "DilChahtaHai",
+    "ChupkeChupke", "Anand", "ChhotiSiBaat", "Bobby"
+      
     ]
 
     @staticmethod
@@ -55,9 +65,9 @@ def draw(s):
         if c.isalpha() and s.is_letter_guessed(c.upper()):
             print(c, end="")
         elif c.isspace():
-            print(" ", end="")
+            print(" ", end=" ")
         else:
-            print('_', end="")
+            print('_', end=" ")
 
     print("   Wrong guesses: " + '+' * s.get_remaining_wrong_guesses())
 
