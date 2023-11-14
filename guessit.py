@@ -13,7 +13,7 @@ class WordList:
     "Dilwale", "Dhoom", "Piku", "Raees", "Memento", "Inception", "Titanic",
     "Avatar", "Interstellar", "Gravity", "Jaws", "Gladiator", "Casablanca",
     "Braveheart", "Rocky", "Joker", "Matrix", "Logan", "Incredibles",
-    "Up", "Frozen", "Coco", "Gravity", "La La Land", "Cinderella",
+    "Up", "Frozen", "Coco", "Gravity","Cinderella",
     "BladeRunner", "Gandhi", "Chicago", "Casino", "Fargo", "ChakDeIndia",
     "Gandhi", "MunnaBhaiMBBS", "Dabangg", "Sarkar", "RangDeBasanti",
     "JabariyaJodi", "October", "Barfi", "Fukrey", "JollyLLB", "Stree",
